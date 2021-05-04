@@ -29,4 +29,4 @@ def ping():
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    serve(TransLogger(app, setup_console_handler=True), port=8000)
+    serve(TransLogger(app, setup_console_handler=True), port=80)
